@@ -190,7 +190,7 @@ body {
 }
 .pro-figure:hover .pro-content {
     background: var(--bgd);
-    height: 150px;
+    height: 170px;
 }
 .pro-figure:hover .pro-info .pro-text {
     color: var(--prim);
@@ -198,11 +198,22 @@ body {
 .pro-info .pro-text {
     margin-top: 5px;
 }
+.project-link {
+    color: var(--sec);
+}
+.project-link:hover {
+    color: var(--prim);
+}
 .pro-text2 {
     color: var(--sec);
     padding: 0 10px;
-    margin-top: 5px;
+    margin-bottom:0px;
 }
+.pro-list {
+    list-style-type: none;
+    padding-right: 25px;
+}
+
 .contact-section{
     background: var(--bgl);
     padding: 30px 0;
