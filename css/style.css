@@ -24,6 +24,10 @@ body {
 .header{ 
     background: var(--bgd);
 }
+.header2 {
+    background: var(--bgd);
+    min-height: 610px;
+}
 .bg {
     background: var(--bgl);
 }
@@ -39,6 +43,7 @@ body {
 .color {
     color: var(--prim);
 }
+
 .main-nav {
     padding-top: 10px;
 }
@@ -263,9 +268,13 @@ body {
     background-color: var(--prim);
 }
 .bottom-logo {
-    font-size: 30px;
+    font-size: 15px;
 }
 .colophon {
     color: #f9f5ea;
-    font-size: 16px;
+    font-size: 15px;
 }
+.footer2 {
+    background-color: var(--bgd);
+}
+
