@@ -34,7 +34,7 @@
                     <div class="col-md-9">
                         <nav class="main-nav d-flex justify-content-md-end justify-content-center">
                             <ul class="nav nav-list main-nav-list">
-
+                                <!------d-none d-md-inline-block--------->
                                 <li class="nav-list-item">
                                     <a href="home.html" target="_blank" class="nav-link main-nav-link"><i
                                             class="bi bi-house-fill"></i> <span
@@ -54,7 +54,7 @@
                                 </li>
 
                                 <li class="nav-list-item">
-                                    <a href="#link" class="nav-link main-nav-link"><i class="bi bi-wechat"></i> <span
+                                    <a href="contact.html" class="nav-link main-nav-link"><i class="bi bi-wechat"></i> <span
                                             class="d-none d-sm-block d-md-inline-block text-capitalize">Contacts</span></a>
                                 </li>
                             </ul>
@@ -65,12 +65,16 @@
                     <!----introduction ------->
                     <section class="intro-section">
                         <div class="content">
-                            <div class="col text-center text-md-start">
-                                <p class=" h4-text content-header1">Hello, my name is</p>
-                                <p class="h1-text content-header2"><span class="cursive text-light">Adekolu <span
-                                            class="color">Titilope</span></span></p>
-                                <p class="h3-text content-header3">I am <span class="input">a Junior Web<span
-                                            class="color">Developer</span></span></p>
+                            <div class="row">
+                                <div class="col text-center text-md-start">
+                                    <p class=" h4-text content-header1">Hello, my name is</p>
+                                    <p class="h1-text content-header2"><span class="cursive text-light">Adekolu <span
+                                                class="color">Titilope</span></span></p>
+                                    <p class="h3-text content-header3">I am <span class="input">a Junior Web Developer</span></p>
+                                </div>
+                                <div class="col col-sm-4 mx-auto">
+                                    <img class="rounded-circle about-img mx-auto d-block" src="./media/titi3.jpg" alt="titi">
+                                </div>
                             </div>
                         </div>
                     </section>
@@ -84,17 +88,13 @@
             <section class="about-section">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-4 d-flex justify-content-between">
-                            <img class="img-fluid about-img mx-auto" src="/tm/titi.jpeg" alt="titi">
-                        </div>
-                        <div class="col-md-8 text-center text-md-start">
+                        <div class="col-md-11 text-center text-md-center">
                             <div class="about-content">
                                 <h2 class="about-header text-light text-capitalize">Who i am
                                     <p class=" h5-text about-subheader2 text-light text-capitalize "><span
                                             class="cursive">Developer and <span class="color">Designer</span></span></p>
                                 </h2>
-                                <p class="about-text">I am a passionate junior developer in Missisippi Coding Academies
-                                    with a desire to learn and grow in a collaborative team environment. A self-taught
+                                <p class="about-text text-center">I am a passionate junior developer in Missisippi Coding Academies with a desire to learn and grow in a collaborative team environment. A self-taught
                                     web designer skilled and focused on responsive design, accessibility, pleasing
                                     aesthetics and of course writing clean, elegant and efficient code. From Nigeria. I
                                     am currently proficient in HTML, CSS and a bit of Java Script, excels at creating
@@ -111,21 +111,22 @@
             <section class="project-section">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-11 text-center text-md-center">
+                        <div class="col-md-12 text-center text-md-center">
                             <h2 class="project-header text-light">My Projects</h2>
                         </div>
                     </div>
+                    <!----obsessesion with orderliness made me put the first and second beginner project..just adding up to the numbers -->
                     <div class="row">
                         <div class="col-md-4">
-                            <figure class="figure pro-figure">
-                                <img src="./media/trribute.png" alt="first image" class="figure-img img-fluid pro-img">
-                                <div class="pro-content">
+                            <figure class="figure pro-figure"> <!---parent-->
+                                <img src="./media/trribute.png" alt="first image" class="figure-img img-fluid pro-img"><!--parent-->
+                                <div class="pro-content"><!---child-->
                                     <div class="pro-info">
                                         <h2 class="pro-h2">Tribute</h2>
                                         <p class="pro-text">How it started</p>
                                     </div>
                                     <p class="pro-text2">Introduction to coding, linking pics and vids with Html and
-                                        Css. </p>
+                                        Css... </p>
                                     <ul class="pro-tag d-flex justify-content-between">
                                         <li class="pro-list"><a class="project-link" target="_blank"
                                                 href="#link">View Site</a></li>
@@ -227,7 +228,7 @@
                                         <h2 class="pro-h2">Portfolio</h2>
                                         <p class="pro-text">The Journey continues...</p>
                                     </div>
-                                    <p class="pro-text2">Biopage looking pretty using Html, Css and Typescript</p>
+                                    <p class="pro-text2">Biopage looking pretty using Html, Css, Typescript and Javascript</p>
                                     <ul class="pro-tag d-flex justify-content-between">
                                         <li class="pro-list"><a class="project-link" target="_blank"
                                                 href="https://titti12.github.io/Personal-Portfolio/">View Site</a></li>
@@ -249,7 +250,7 @@
             <section class="contact-section">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-11">
+                        <div class="col-md-12">
                             <div class="contact-info">
                                 <h2 class="contact-header text-capitalize text-center text-md-center">contact me</h2>
                                 <p class="number cursive"><i class="bi bi-telephone-fill"></i> +2348118796927</p>
@@ -260,7 +261,7 @@
                                 <button class="btn my-btn"><a
                                         href="https://wa.me/%2B2347036138972?text=Let%E2%80%99s%20Talk%20"
                                         target="_blank" class=" my-btn text-decoration-none fw-bold">Let's
-                                        Talk</a></button>
+                                        Chat</a></button>
                             </div>
                         </div>
                     </div>
@@ -273,7 +274,7 @@
                 <div class="socials">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-11 text-center text-md-center">
+                            <div class="col-md-12 text-center text-md-center">
                                 <a class="social-link text-decoration-none" target="_blank"
                                     href="https://www.github.com/Titti12/Titti12"><i class="bi bi-github"></i></a>
 
@@ -310,7 +311,7 @@
             crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
         <script>
-            var typed = new Typed(".input", { strings: [" a Junior Web Developer.", "a Jr. UX Designer.", "an IT Consultant.", "an Adminstrator."], typeSpeed: 70, backSpeed: 60, loop: true });
+            var typed = new Typed(".input", { strings: [" a Junior Web Developer.", "a Jr. UX Designer.", "an IT Consultant.", "an Adminstrator.", "a Mediator."], typeSpeed: 70, backSpeed: 60, loop: true });
         </script>
     </body>
 </html>
