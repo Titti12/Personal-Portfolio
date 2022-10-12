@@ -165,7 +165,7 @@ body {
     position: relative;
     z-index: 1;
     overflow: hidden;
-    width: 350px;
+    width: 300px;
     height: 250px;
 
 }
@@ -186,6 +186,7 @@ body {
     }
     
 }
+
 .pro-content {
     transition: all .4s;
     overflow: hidden;
@@ -222,9 +223,6 @@ body {
     color: var(--prim);
 }
 
-.pro-info .pro-text {
-    margin-top: 5px;
-}
 .project-link {
     color: var(--sec);
 }
