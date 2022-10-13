@@ -254,8 +254,11 @@ body {
     margin-top: 80px;
 }
 
-.number {
+.number, .number2 {
     color: var(--prim);
+}
+.number2 {
+    font-size: 25px;
 }
 .mail-link {
     color: var(--sec);
