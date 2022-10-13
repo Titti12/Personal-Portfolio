@@ -167,7 +167,6 @@ body {
     overflow: hidden;
     width: 300px;
     height: 250px;
-
 }
 .pro-figure:hover .pro-img {
     transform: scale(1.1);
@@ -186,7 +185,6 @@ body {
     }
     
 }
-
 .pro-content {
     transition: all .4s;
     overflow: hidden;
