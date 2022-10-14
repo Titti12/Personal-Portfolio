@@ -207,14 +207,14 @@ body {
 .pro-text {
     color: var(--sec);
     font-family: var(--secfont);
-    font-size: 18px;
+    font-size: 20px;
 }
 .pro-info {
     padding: 15px 30px 15px 30px;
     transition: all .5s;
 }
 .pro-figure:hover .pro-content {
-    background: var(--bgd);
+    background:var(--bgd);
     height: 170px;
 }
 .pro-figure:hover .pro-info .pro-text {
