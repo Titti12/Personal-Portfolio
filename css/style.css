@@ -126,18 +126,17 @@ body {
 }
 
 .my-btn {
-    background-color: var(--prim);
+    background-color:var(--prim);
     color: var(--sec);
-    border: 3px solid transparent;
-    padding: 15px, 30px;
-    border-radius: 50px;
-    transition: .4s;
+    padding: 25px, 35px;
+    border:10px;
 }
-.my-btn:hover{
-    background-color: transparent;
+.my-btn:hover:hover {
+    background-color:transparent;
+    border: 1px solid var(--prim);
     color: var(--sec);
-    border: 2px solid var(--prim);
     cursor: pointer;
+    transition: .4s;
 }
 .project-section {
     background: var(--bgd);
@@ -207,13 +206,13 @@ body {
 .pro-text {
     color: var(--sec);
     font-family: var(--secfont);
-    font-size: 20px;
+    font-size: 25px;
 }
 .pro-info {
     padding: 15px 30px 15px 30px;
     transition: all .5s;
 }
-.pro-figure:hover .pro-content {
+.pro-figure:hover .pro-content, .pro-figure:focus-within .pro-content {
     background:var(--bgd);
     height: 170px;
 }
